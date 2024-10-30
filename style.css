@@ -1,25 +1,30 @@
+/*
 ul {
   list-style-type: none;
   margin: 10px;
   padding: 10px;
   
 }
-li{
+
   display: inline;
   float: right;
   display: block;
   padding: 10px;
-}
-nav {
-  color: black;
-  background-color: gray;
-  /* position: fixed; Set the navbar to fixed position */
-  /* top: 0; Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
+}*/
 body{
   background-color: dodgerblue;
 }
+header {
+  color: black;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > a {
+text-decoration: none;
+}
+
 .center {
   border-radius: 50%;
   display: block;
